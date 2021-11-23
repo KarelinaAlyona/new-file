@@ -1,0 +1,68 @@
+@media(max-width:575px) {
+
+    /*Menu*/
+    .menu {
+         position: static;
+    }
+    #header {
+        margin-top: 0px;
+        background-size: cover;
+        min-height: 100px;
+    }
+
+#text img {
+    float: none;
+    width: 90%;
+}
+
+    /*Team, pictures*/
+    .pictures {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 7px;
+    }
+
+
+
+    /*Prices*/
+    .tariffs {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .tariffs li:last-child {
+        margin-bottom: 13px;
+    }
+}
+
+
+
+
+/*small tablet*/
+/*Team, pictures*/
+
+/* @media(max-width:768px) {
+
+    
+    .pictures {
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 7px;
+    }
+}
+*/
+
+
+/*tablet*/
+/*Prices*/
+/*
+@media(max-width:1024px) {
+
+
+.tariffs {
+    margin: 0 auto;
+    width: 25%;
+}
+} 
+
+*/
+

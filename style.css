@@ -1,0 +1,297 @@
+
+/*Menu*/
+
+.menu {
+  
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  /* padding-top: 30px; */
+  align-items: center;
+  justify-content: space-between;
+  
+  top: 0;
+  background-color: white;
+  opacity: 0.8;
+  
+}
+
+.menu a {
+  
+display: inline-block;
+/*
+vertical-align: top;
+margin: 0 15px;
+margin-top: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(14, 17, 17);
+  transition: color .2s linear;
+  */
+  
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  display: inline-block;
+  padding: 20px 40px;
+  font-weight: bold;
+  
+}
+.menu a:hover { 
+  
+  background-color: rgb(241, 93, 222);
+  border-radius: 10px;
+  
+
+  
+}
+
+#header {
+  
+  background-image: url(image/fonn.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  
+  padding: 200px 0px;
+  background-size: cover;
+}
+
+/*
+.header__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #8f8484;
+  text-align: left;
+  width: 100%;
+  position: absolute;
+}
+*/
+
+
+#header a {
+  padding: 12px 24px;
+  background-color: rgb(252, 162, 189);
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+}
+#header a:hover {
+  background-color: rgb(243, 154, 231);
+}
+
+
+
+/*About the company*/
+#text {
+  padding: 40px 20px;
+  margin: 0px auto;
+  text-align: justify;
+  max-width: 1200px;
+ /* width: 100%; */
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+}
+.brand {
+  color: rgb(250, 51, 101);
+  font-size: 19px;
+}
+.service {
+  color: rgb(30, 194, 30);
+}
+.quality {
+  color:orange;
+}
+.products {
+  color: rgb(220, 20, 170);
+}
+#text img {
+  width: 180px;
+  float: right;
+  margin: 0px 20px;
+  border: 2px;
+  border: solid;
+  border-color: black;
+}
+
+
+
+
+/*team,pictures*/
+#team {
+  text-align: center;
+}
+#team p {
+  color: rgb(250, 51, 101);
+  font-weight: bold;
+  font-size: 18px;
+}
+.pictures {
+  display: inline-block;
+  width: 20%;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(204, 78, 187);
+  margin: 0px 44px;
+  padding: 15px;
+}
+
+.pictures img {
+  width: 100%;
+  height: 300px;
+}
+.pictures h4 {
+  color: black;
+}
+.button a {
+  padding: 12px 24px;
+  background-color: rgb(252, 162, 189);
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+}
+.button a:hover {
+  background-color: rgb(255, 116, 158);
+}
+.pictures {
+  color: rgb(211, 43, 226);
+}
+
+
+
+
+/*prices*/
+#prices h2,
+p {
+  text-align: center;
+  padding-top: 40px;
+}
+ul {
+    list-style-type: none;
+}
+#prices p {
+color: rgb(250, 51, 101);
+  font-weight: bold;
+  font-size: 18px;
+}
+.tariffs li {
+border-bottom-width: 1px ;
+border-bottom-style: solid;
+border-bottom-color: #c9c7c7;
+padding: 16px 0px;
+background-color: beige;
+}
+ .tariffs .basic {
+background-color: rgb(245, 128, 163);
+color: white;
+font-size: 19px;
+padding: 28px 0px;
+text-align: center;
+}
+.tariffs .profi {
+padding: 36px 0px;
+background-color: teal;
+color: white;
+font-size: 19px;
+text-align: center;
+}
+
+.tariffs {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  min-width: 150px;
+  padding: 0;
+  margin: 10px;
+  vertical-align: middle;
+}
+#prices  {
+background-color: rgb(252, 199, 252);
+text-align: center;
+}
+.tariffs li:last-child {
+  background-color: rgb(204, 199, 199);
+    margin-bottom: 13px;
+}
+
+.tariffs .button a {
+padding: 12px 24px;
+background-color: rgb(21, 155, 155);
+text-decoration: none;
+border-radius: 10px;
+color: black;
+}
+.tariffs .button a:hover {
+  background-color: rgb(255, 116, 158);
+}
+
+
+
+
+/*Contacts*/
+#contacts h2 {
+  text-align: center;
+  margin-top: 0px;
+  padding: 40px 0px;
+}
+#contacts p {
+  color: rgb(250, 51, 101);
+  font-weight: bold;
+  font-size: 18px;
+}
+.location  {
+  background-image: url(image/address.png);
+  background-repeat: no-repeat;
+  text-align: left;
+padding-left: 33px;
+background-size: 18px 18px;
+margin-left: 5%;
+}
+.phone {
+  text-align: left;
+  background-image: url(image/phone.png);
+  background-repeat: no-repeat;
+  padding-left: 33px;
+  background-size: 18px 18px;
+  margin-left: 5%;
+}
+.email {
+  background-image: url(image/mail.png);
+  background-repeat: no-repeat;
+  text-align: left;
+padding-left: 33px;
+background-size: 18px 18px;
+margin-left: 5%;
+}
+input {
+  width: 90%;
+  padding: 8px;
+}
+#contacts {
+  background-color: rgb(204, 199, 199);
+  
+}
+body {
+  margin: 0px;
+}
+#contacts button {
+  padding: 8px 16px;
+  background-color: rgb(252, 162, 189);
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  margin-bottom: 0px;
+}
+#contacts button:hover {
+  background-color: rgb(21, 155, 155);
+}
+.footer {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
